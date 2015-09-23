@@ -13,12 +13,6 @@ use Nette;
 /**
  * Lazy encapsulation of PresenterComponent::link().
  * Do not instantiate directly, use PresenterComponent::lazyLink()
- *
- * @author     David Grudl
- * @internal
- *
- * @property-read string $destination
- * @property-read array $parameters
  */
 class Link extends Nette\Object
 {
